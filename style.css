@@ -1,36 +1,28 @@
 body {
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    background-color: #e8e8e8;
+   
 }
 
-img {
-    border-radius: 50%;
-    width: 200px;
+#splash {
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: -153px;
 }
 
-#card {
-    width: 80%;
-    margin: auto;
-    background-color: #36d189;
-    border-radius: 15px;
-    height: 50px;
-    border-radius: 30px;
+#header {
+    position: absolute;
+    width: 100%;
+    height: 6%;
+    left: 0px;
+    top: 0px;
+    background: rgba(12, 8, 8, 0.38);   
 }
 
-a {
-    text-decoration: none;
-}
-
-a:visited {
-    color: black;
-}
-
-#card h3 {
-    position: relative;
-    top: 30%;
-}
-
-span {
-    color: #36d189;
+#logo {
+    position: absolute;
+    width: 5%;
+    left: 14px;
+    top: 12px;
+    background: url(LogoMakr-4eb1ig.png);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
