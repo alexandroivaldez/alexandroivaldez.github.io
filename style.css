@@ -1,39 +1,33 @@
-#frame {
-width: 100%;
-
-background: #000000;
+body {
+  background-color: black;
 }
 
-#splash {
-    position: absolute;
-    width: 100%;
-    left: 0px;
-    top: -153px;
+#mainFrame {
+  position: relative;
+  background: #FFFFFF;
 }
 
-#logo {
-    position: absolute;
-    width: 5%;
-    left: 14px;
-    top: 12px;
-    background: url(LogoMakr-4eb1ig.png);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+#logoTitle {
+  position: absolute;
+width: 152px;
+height: 88px;
+left: 5%;
+top: 5%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+
+color: #FFFFFF;
 }
 
-#nameTitle {
-    position: relative;
-    width: 792px;
-    height: 81px;
-    left: 72px;
-    top: 225px;
-    
-    font-family: 'Inter';
-    font-style: italic;
-    font-weight: 400;
-    font-size: 128px;
-    line-height: 155px;
-    
-    color: #FFFFFF;
-    
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+#splashImg {
+  position: relative;
+  width: 100%;
+left: 0px;
+top: 0px;
+
+background: url(splash.jpg);
 }
